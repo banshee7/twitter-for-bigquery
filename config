@@ -1,0 +1,31 @@
+# Google Cloud Project: Project ID as listed in the Google Developers Console (https://console.developers.google.com/project)
+PROJECT_ID:twitter-api-1-294120
+PROJECT_NUMBER 113876856416:
+
+# Google Cloud Project: Service account email address in "APIs & auth->Credentials"  (https://console.developers.google.com/project/PROJECT_ID/apiui/credential) 
+SERVICE_ACCOUNT:store-tweets@twitter-api-1-294120.iam.gserviceaccount.com
+
+# Google Cloud Project: PKCS12 P12 key in "APIs & auth->Credentials" (https://console.developers.google.com/project/PROJECT_ID/apiui/credential)
+KEY_FILE: "122242d59037f2bdee5153ab7fc5b46bfea7dcd3"
+
+# Google BigQuery: Existing dataset and table you want to stream data into (https://bigquery.cloud.google.com/project/PROJECT_ID)
+DATASET_ID: "gnip"
+TABLE_ID: "tweets"
+
+# Gnip: Endpoints and user credentials (http://console.gnip.com)
+GNIP_STREAM_URL: "https://stream.gnip.com:443/accounts/YOUR_ACCOUNT/publishers/twitter/streams/track/prod.json"
+GNIP_STREAM_USERNAME:
+GNIP_STREAM_PASSWORD:
+
+GNIP_SEARCH_URL: "https://search.gnip.com/accounts/YOUR_ACCOUNT/search/STREAM.json"
+GNIP_SEARCH_USERNAME:
+GNIP_SEARCH_PASSWORD:
+
+# Twitter API: App keys and tokens (http://apps.twitter.com)
+CONSUMER_KEY:iDQY1RCDP5li6qJC9zCzc3lDU
+CONSUMER_SECRET:c3s8t0ygcwHx07ZCz5YrRUIMI2lf6LxdYJwk0UGoYwStfzIMOu
+ACCESS_TOKEN:726283249-dw2YlEaDnFzPJ0cIdhbovuDMixs0vCwCbNPOmf4J
+ACCESS_TOKEN_SECRET:5brVHBcPqPz6LyWZdNqKKefWXVCWWsv0YhuSIBww4Nmq5
+
+# Daemon mode: gnip or twitter
+MODE: "twitter"
